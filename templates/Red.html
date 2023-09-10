@@ -1,0 +1,29 @@
+{% extends "base_result.html" %}
+
+{% block title %}
+{{title}} Diagnosis
+{% endblock %}
+
+{% block heading %}
+<style>
+  #hero {
+    background-image: url(../static/css/images/red.jpg);
+  }
+</style>
+<!-- <h1 style="font-size: 100px; color: rgb(6, 158, 51);"> <i class="fas fa-smile-beam"></i> </h1> -->
+<h1>Soil Type: <span style="color: rgb(6, 158, 51);">Red Soil </span> </h1>
+<p class="alert alert-success"> You can Plant below crops:- { Cotton,Wheat,Pulses,Millets,OilSeeds,Potatoes }
+</p>
+<p class="alert alert-success"> लाल मिटटी में आप यह फसलं ले सकते है ।:- { कपास, गेहूं, दलहन, बाजरा, तिलहन, आलू }
+</p>
+<p class="alert alert-success">लाल माती मध्ये तुम्ही ही पिके घेऊ शकता:- { कापूस, गहू, डाळी, मिल्ट्स, तेलबिया, बटाटे }
+</p>
+<p class="alert alert-success"> લાલ જમીનમાં તમે આ પાક લઈ શકો છો ।:- { કપાસ, ઘઉં, કઠોળ, મિલેટ્સ, તેલીબિયાં, બટાકા }</p>
+<p class="alert alert-success"> சிவப்பு மண்ணில் நீங்கள் இந்த பயிர்களை எடுக்கலாம் ।:- { பருத்தி, கோதுமை, பருப்பு வகைகள்,
+  தினை, எண்ணெய் வித்து, உருளைக்கிழங்கு }</p>
+<p class="alert alert-success">ಕೆಂಪು ಮಣ್ಣಿನಲ್ಲಿ ನೀವು ಈ ಬೆಳೆಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು ।: -{ ಹತ್ತಿ, ಗೋಧಿ, ಬೇಳೆಕಾಳುಗಳು, ರಾಗಿ,
+  ಎಣ್ಣೆಕಾಳುಗಳು, ಆಲೂಗಡ್ಡೆ }</p>
+{% block button %}
+<a href="javascript:history.back()" class="main-btn" id="backtogreen">Back To Home</a>
+{% endblock %}
+{% endblock %}

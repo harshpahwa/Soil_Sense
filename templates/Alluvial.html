@@ -1,0 +1,27 @@
+{% extends "base_result.html" %}
+
+{% block title %}
+{{title}} Diagnosis
+{% endblock %}
+
+{% block heading %}
+<style>
+  #hero {
+    background-image: url(../static/css/images/Alluvial.jpg);
+  }
+</style>
+<!-- <h1 style="font-size: 100px; color: rgb(6, 158, 51);"> <i class="fas fa-smile-beam"></i> </h1> -->
+<h1>Soil Type: <span style="color: rgb(6, 158, 51);">Clay Soil </span> </h1>
+<p class="alert alert-success"> You can Plant below crops:- { Rice,Wheat,Sugarcane,Maize,Cotton,Soyabean,Jute }
+</p>
+<p class="alert alert-success">कछार की मिट्टी में आप यह फसलं ले सकते है ।:- { चावल, गेहूं, गन्ना, मक्का, कपास, सोयाबीन, जूट }
+</p>
+<p class="alert alert-success">गाळाची माती मध्ये तुम्ही ही पिके घेऊ शकता:- { तांदूळ, गहू, ऊस, मका, कापूस, सोयाबीन, पाट }
+</p>
+<p class="alert alert-success"> કાંપવાળી જમીનમાં તમે આ પાક લો છો ।:- { ચોખા, ઘઉં, શેરડી, મકાઈ, કપાસ, સોયાબીન, જૂટ} </p>
+<p class="alert alert-success"> வண்டல் மண்ணில் நீங்கள் இந்த பயிர்களை எடுத்துக்கொள்கிறீர்கள் ।:- { அரிசி, கோதுமை, கரும்பு, மக்காச்சோளம், பருத்தி, சோயாபீன், சணல் }</p>
+<p class="alert alert-success">ಮೆಕ್ಕಲು ಮಣ್ಣಿನಲ್ಲಿ ನೀವು ಈ ಬೆಳೆಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಿ ।: -{ ಅಕ್ಕಿ, ಗೋಧಿ, ಕಬ್ಬು, ಮೆಕ್ಕೆಜೋಳ, ಹತ್ತಿ, ಸೋಯಾಬೀನ್, ಸೆಣಬು }</p>
+{% block button %}
+<a href="javascript:history.back()" class="main-btn" id="backtogreen">Back To Home</a>
+{% endblock %}
+{% endblock %}

@@ -45,12 +45,15 @@
           <div class="icon"><i class="fas fa-tractor"></i></div>
           <h4 class="title"><a >Upload Soil Image</a></h4>
           <br>
-          <input class="inp" required type="file" name="img" />
+          <form action="/predict" method="post" enctype="multipart/form-data">
+            <input class="inp" required type="file" name="image"  />
           <br><br><br>
           <center>
-            <button type="submit" class="btn btn-info btn-lg btn-block btnn" value="submit" name="btn"
+            <button type="submit" class="btn btn-info btn-lg btn-block btnn" value="Predict"
               id="sbbtn">Submit</button>
           </center>
+          </form>
+          
         </div>
       </div>
 

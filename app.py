@@ -10,7 +10,7 @@ def index():
     return render_template("index.html")
 
 
-#brain tumor
+
 @app.errorhandler(werkzeug.exceptions.BadRequest)
 def handle_bad_request(e):
     return 'bad request!', 400
